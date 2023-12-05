@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Image to Code
 
-## Getting Started
+## Description
+Image to Code is a web application for converting images into code, leveraging artificial intelligence technologies. It allows users to drag and drop images, which are then processed to generate relevant code.
 
-First, run the development server:
+## Prerequisites
+Before you start, make sure you have Node.js installed in your development environment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Installation
+To run this application, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [Repository URL]
+Navigate to the project directory:
+cd image-to-code
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install the dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+ npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+## Configuration
+An OpenAI API key is required for the application to function correctly.
 
-## Learn More
+Create a .env or .env.local file at the root of the project.
+Add the following line, replacing YOUR_OPENAI_API_KEY with your OpenAI API key:
 
-To learn more about Next.js, take a look at the following resources:
+bash```
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+Running the Application
+To start the application in development mode, run:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+bash```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm run dev
+Open http://localhost:3000 in your browser to view the application.
+```
+## Building
+To build the application for production, run:
 
-## Deploy on Vercel
+bash```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run build
+```
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Drag and drop image uploading.
+Processing and code generation using the OpenAI API.
+Technologies Used
+Next.js
+React
+Tailwind CSS
+OpenAI API
+
+This proyect was followig the tutorial of Midudev in youtube.
+
+ ## Contributions
+
+Contributions are always welcome. Please read the CONTRIBUTING.md file to know how you can contribute to this project.
+
+License
+This project is licensed under the MIT License.
+
+
