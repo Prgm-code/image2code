@@ -9,18 +9,20 @@ Before you start, make sure you have Node.js installed in your development envir
 ## Installation
 To run this application, follow these steps:
 
-1. Clone the repository:
+Clone the repository:
    ```bash
-   git clone [Repository URL]
+git clone [Repository URL]
+ ```
 Navigate to the project directory:
+   ```bash
 cd image-to-code
 ```
 
+
 ## Install the dependencies:
 
-    ```bash
+ ```bash
  npm install
-
 ```
 ## Configuration
 An OpenAI API key is required for the application to function correctly.
@@ -28,22 +30,21 @@ An OpenAI API key is required for the application to function correctly.
 Create a .env or .env.local file at the root of the project.
 Add the following line, replacing YOUR_OPENAI_API_KEY with your OpenAI API key:
 
-bash```
+   ```bash
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 Running the Application
 To start the application in development mode, run:
 ```
 
-bash```
-
+   ```bash
 npm run dev
 Open http://localhost:3000 in your browser to view the application.
 ```
+
 ## Building
 To build the application for production, run:
 
-bash```
-
+   ```bash
 npm run build
 ```
 ## Features
